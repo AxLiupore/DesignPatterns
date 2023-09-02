@@ -8,7 +8,9 @@
 class ShipBuilder
 {
  public:
+	// 重置
 	virtual void reset() = 0;
+	// 修建身体
 	virtual void buildBody() = 0;
 	virtual void buildWeapon() = 0;
 	virtual void buildEngine() = 0;
